@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+*{
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: content-box;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #4fbffe;
+    min-height: 20vh;
+
+}
+
+.menu li{
+
+    padding: 40px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+li a{
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+.redes{
+
+    padding: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.barra_amarela{
+
+    position: absolute;
+    background-color: #ffc90e;
+    order: 1;
+    height: 5vh;
+    width: 100vw;
+}
